@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pavita S | Java Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Pavita S, Java Full-Stack Developer (Spring Boot, React.js, MySQL).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#top">pavita<span>.dev</span></a>
+  <nav>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+    <button id="theme" aria-label="Toggle light and dark theme">◐</button>
+    <a class="btn primary small" href="Pavita_Sasikumar_Resume.pdf" download>Resume</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="mono accent">// Java · Spring Boot · React.js · MySQL</p>
+    <h1>Pavita S — Aspiring Full-Stack / Software Developer building secure, scalable web systems.</h1>
+    <p class="lead">Electronics and Communication Engineering graduate with a solid foundation in Java, SQL, Spring Boot and React.js, plus hands-on experience in AI-driven healthcare projects and signal processing. I build production-minded full-stack applications with clean layered architecture, secure APIs and responsive interfaces.</p>
+    <p class="muted">📍 Salem / Chennai, India</p>
+    <div class="row">
+      <a class="btn primary" href="Pavita_Sasikumar_Resume.pdf" download>Download resume</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+    <div class="row chips-row">
+      <a class="pill" href="mailto:pavitasasikumar@gmail.com">pavitasasikumar@gmail.com</a>
+      <a class="pill" href="tel:+916369177158">+91 6369177158</a>
+      <a class="pill" href="https://linkedin.com/in/pavita-sasikumar/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="pill" href="https://github.com/PavitaS" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div class="stats">
+      <div><b>8.37</b><span>CGPA · B.E. ECE</span></div>
+      <div><b>4</b><span>Full-stack &amp; AI projects</span></div>
+      <div><b>2</b><span>Published research papers</span></div>
+      <div><b>#19</b><span>Of 500+ · AI SDG Hackathon</span></div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <p class="mono accent">Toolkit</p>
+    <h2>Skills across the full stack</h2>
+    <p class="lead">From React interfaces down to Spring Boot services and MySQL schemas — the tools I use to ship complete features.</p>
+    <div class="grid2" id="skill-grid"></div>
+    <div class="card dashed">
+      <p class="mono accent">Working style</p>
+      <div class="tags" id="soft-skills"></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="mono accent">Featured work</p>
+    <h2>Projects built end to end</h2>
+    <p class="lead">Each project covers the whole path: data model, layered backend, secured REST APIs and a responsive React interface.</p>
+    <div id="project-list"></div>
+  </section>
+
+  <section id="experience">
+    <p class="mono accent">Experience</p>
+    <h2>Internships &amp; industry exposure</h2>
+    <p class="lead">Hands-on time inside manufacturing and engineering environments, building an eye for reliability, process and quality.</p>
+    <div class="timeline" id="exp-list"></div>
+  </section>
+
+  <section id="education">
+    <p class="mono accent">Background</p>
+    <h2>Education &amp; achievements</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>Education</h3>
+        <div class="item"><h4>Sri Sairam Engineering College</h4><p>B.E. Electronics and Communication Engineering · CGPA 8.37</p><p class="mono muted">Oct 2022 – Apr 2026 · Chennai, Tamil Nadu</p></div>
+        <div class="item"><h4>Malco Vidyalaya Matric. Hr. Sec. School</h4><p>HSC · 87%</p><p class="mono muted">2021 – 2022 · Salem, Tamil Nadu</p></div>
+        <div class="item"><h4>Malco Vidyalaya Matric. Hr. Sec. School</h4><p>SSLC · 85%</p><p class="mono muted">2019 – 2020 · Salem, Tamil Nadu</p></div>
+      </div>
+      <div class="card">
+        <h3>Awards &amp; research</h3>
+        <div class="item"><h4>Build Together AI SDG Hackathon — Rank 19 of 500+</h4><p>Collaborated on an AI-based healthcare project, placing 19th among 500+ participants and winning a ₹12,000 cash prize.</p></div>
+        <div class="item"><h4>Published research paper — International Conference</h4><p>“A Non-Invasive, Efficient Interpretation of Heartbeat Monitoring System”</p></div>
+        <div class="item"><h4>Published research paper — International Conference</h4><p>“A Technological Paradigm in Detection and Classification of Cardiopulmonary Disorders”</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <p class="mono accent">Certifications</p>
+    <h2>Continuous learning</h2>
+    <p class="lead">Courses completed alongside my degree to deepen my software engineering and data foundations.</p>
+    <div class="grid2" id="cert-list"></div>
+  </section>
+
+  <section id="contact">
+    <p class="mono accent">HTTP 404 · Developer not found</p>
+    <h2>404: Perfect Developer Not Found?</h2>
+    <p class="lead">Maybe you just found one. Let's connect and build something awesome!</p>
+    <div class="grid2">
+      <form class="card" id="contact-form">
+        <label>Your name<input name="name" placeholder="Jane Doe" required></label>
+        <label>Email<input type="email" name="email" placeholder="jane@company.com" required></label>
+        <label>Subject<input name="subject" placeholder="Full-stack developer opening"></label>
+        <label>Message<textarea name="message" rows="6" placeholder="Tell me about the role or project…" required></textarea></label>
+        <button class="btn primary" type="submit">Send message</button>
+      </form>
+      <div class="contact-list">
+        <div class="card"><span class="mono muted">Email</span><br>pavitasasikumar@gmail.com</div>
+        <div class="card"><span class="mono muted">Phone</span><br>+91 6369177158</div>
+        <div class="card"><span class="mono muted">LinkedIn</span><br>pavita-sasikumar</div>
+        <div class="card"><span class="mono muted">GitHub</span><br>PavitaS</div>
+        <a class="btn" href="Pavita_Sasikumar_Resume.pdf" download>Download resume (PDF)</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Pavita S</footer>
+<script src="script.js"></script>
+</body>
+</html>
